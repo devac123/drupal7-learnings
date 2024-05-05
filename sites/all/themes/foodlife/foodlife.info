@@ -1,0 +1,7 @@
+name = Food life
+description = A brief description of your theme.
+core = 7.x
+base theme = bartik
+engine = phptemplate
+stylesheets[all][] = css/style.css
+scripts[] = js/script.js
