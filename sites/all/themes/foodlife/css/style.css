@@ -1,0 +1,41 @@
+.card-stack {
+    position: relative;
+    width: 100px;
+    /* Width of the cards */
+    height: 150px;
+    /* Height of the cards */
+    /* Adjust the margin as needed */
+  }
+
+  .card-stack .card {
+    cursor: pointer;
+  }
+
+  .diet_tag_card {
+    position: absolute;
+    width: 200px;
+    /* Width of the cards */
+    height: 150px;
+    /* Height of the cards */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  }
+
+
+  .diet_tag_card.active {
+    z-index: 999;
+  }
+
+  .diet_tag_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #edit-field-diet-tags-tid.form-radios{
+        display: flex;
+  } 
